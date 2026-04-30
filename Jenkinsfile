@@ -42,7 +42,7 @@ pipeline {
             steps {
                 sh '''
                 kubectl set image deployment/portfolio \
-                portfolio=$IMAGE_NAME:$IMAGE_TAG
+                nginx=$IMAGE_NAME:$IMAGE_TAG
                 '''
             }
         }

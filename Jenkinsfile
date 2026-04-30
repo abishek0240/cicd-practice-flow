@@ -10,7 +10,8 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/abishek0240/cicd-practice-flow.git'
+                git branch: 'main', url: 'https://github.com/abishek0240/cicd-practice-flow.git'
+
             }
         }
 

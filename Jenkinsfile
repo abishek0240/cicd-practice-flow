@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/abishek0240/portfolio-cicd.git'
+                git 'https://github.com/abishek0240/cicd-practice-flow.git'
             }
         }
 
